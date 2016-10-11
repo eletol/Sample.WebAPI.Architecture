@@ -10,6 +10,8 @@ namespace App.Services.Domain.DBContext
         public DbContext()
             : base("DefaultConnection", false)
         {
+            this.Configuration.ProxyCreationEnabled = false;
+
         }
 
 
