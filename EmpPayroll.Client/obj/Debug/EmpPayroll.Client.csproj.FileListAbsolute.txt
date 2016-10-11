@@ -1,0 +1,24 @@
+C:\Users\ahmed\Documents\Visual Studio 2013\Projects\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.dll.config
+C:\Users\ahmed\Documents\Visual Studio 2013\Projects\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.dll
+C:\Users\ahmed\Documents\Visual Studio 2013\Projects\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.pdb
+C:\Users\ahmed\Documents\Visual Studio 2013\Projects\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.dll
+C:\Users\ahmed\Documents\Visual Studio 2013\Projects\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.pdb
+C:\Users\ahmed\Documents\Visual Studio 2013\Projects\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.csprojResolveAssemblyReference.cache
+E:\New folder\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.dll.config
+E:\New folder\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.dll
+E:\New folder\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.pdb
+E:\New folder\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.csprojResolveAssemblyReference.cache
+E:\New folder\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.dll
+E:\New folder\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.pdb
+F:\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.dll.config
+F:\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.dll
+F:\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.pdb
+F:\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.csprojResolveAssemblyReference.cache
+F:\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.dll
+F:\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.pdb
+D:\Mine\Sample\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.dll.config
+D:\Mine\Sample\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.dll
+D:\Mine\Sample\EmpPayroll\EmpPayroll.Client\bin\EmpPayroll.Client.pdb
+D:\Mine\Sample\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.csprojResolveAssemblyReference.cache
+D:\Mine\Sample\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.dll
+D:\Mine\Sample\EmpPayroll\EmpPayroll.Client\obj\Debug\EmpPayroll.Client.pdb

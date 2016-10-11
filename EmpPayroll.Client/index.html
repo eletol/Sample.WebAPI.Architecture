@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="myApp" class="no-js">
+<head>
+
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Scripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="../../dist/images/favicon.png">
+</head>
+<body>
+<!-- Primary Page Layout
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <div class="row"   ng-show="showHeader">
+
+        <div class="one-half  column ">
+            <a class="button button-primary" href="#!/empsPayroll">My Employees Payroll</a>
+            <a class="button button-primary" href="#!/myPayroll">My Payroll</a>
+
+        </div>
+    </div>
+    <div class="section ">
+     
+            <div class="container">
+
+                <div class="row">
+                    <div class="one-half  ">
+                        <div ng-view></div>
+
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+
+
+    <!-- In produc
+
+
+    <!-- End Document
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+
+    <script src="app.js"></script>
+    <script src="MyPayroll/myPayroll.js"></script>
+    <script src="EmployeesPayroll/empsPayroll.js"></script>
+    <script src="Login/login.js"></script>
+
+    <script src="components/version/version.js"></script>
+    <script src="components/version/version-directive.js"></script>
+    <script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>
