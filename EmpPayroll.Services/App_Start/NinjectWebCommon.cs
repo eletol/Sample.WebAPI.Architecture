@@ -2,6 +2,7 @@ using System.Web.Http;
 using App.Services.Domain.BussinessMangers.Classes;
 using App.Services.Domain.BussinessMangers.Interfaces;
 using App.Services.Domain.DBContext;
+using App.Services.Domain.Repository;
 using App.Services.Domain.UnitOfWork;
 using EmpPayroll.Services.Domain.Repository.Classes;
 using Ninject.Web.WebApi;
@@ -73,6 +74,8 @@ namespace EmpPayroll.Services.App_Start
             kernel.Bind<IDbContext>().To<DbContext>();
             kernel.Bind<IUnitOfWork>().To<UnitOfWork<DbContext>>();
             kernel.Bind<IDepartmentBussinessManger>().To<DepartmentBussinessManger<DepartmentRepository>>();
-        }        
+            kernel.Bind<IEmployeeBussinessManger>().To<EmployeeBussinessManger<EmployeeRepository>>();
+
+        }
     }
 }

@@ -6,5 +6,8 @@ namespace EmpPayroll.Services.Domain.Collections
 {
     public class Departments: BusinessCollection<Department, DbContext>
     {
+    
+    
+       
     }
 }

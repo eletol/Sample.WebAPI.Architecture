@@ -38,6 +38,7 @@ namespace EmpPayroll.Services.Controllers
         // GET: api/Departments/5
         public Department Get(int id)
         {
+            
             return _departmentBussinessManger.GetById(id);
         }
 

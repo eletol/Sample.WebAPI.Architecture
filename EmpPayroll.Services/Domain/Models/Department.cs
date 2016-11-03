@@ -7,7 +7,7 @@ namespace App.Services.Domain.Models
     public class Department
     {
         [Key]
-        public string DId { get; set; }
+        public int DId { get; set; }
         public string Name { get; set; }
      
         public virtual ICollection<Employee> Employees { get; set; }

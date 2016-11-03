@@ -10,7 +10,7 @@ namespace App.Services.Domain.Models
     public class Employee
     {
         [Key]
-        public string EId { get; set; }
+        public int EId { get; set; }
        
         public string DId { get; set; }
         public virtual Department Department { get; set; }

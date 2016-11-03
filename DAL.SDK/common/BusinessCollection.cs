@@ -10,22 +10,28 @@ namespace DAL.SDK.common
 {
     public class BusinessCollection<TModel, TContext>
         where TModel : class, new()
-        where TContext : DbContext, new()
+        where TContext : DbContext
 
     {
-        private TContext _contx = null;
         DbSet<TModel> dbSet;
-
+        private TContext _context;
         public TContext ContextObject
         {
-            get { return _contx ?? (_contx = new TContext()); }
+            get
+            {
+                return this._context;
+            }
+            set
+            {
+                this._context = value;
+                this.dbSet = ContextObject.Set<TModel>();
+
+            }
         }
 
         public BusinessCollection()
         {
-            this.dbSet = ContextObject.Set<TModel>();
-
-        }
+       }
 
         public virtual IQueryable<TModel> Get(
            Expression<Func<TModel, bool>> filter = null,

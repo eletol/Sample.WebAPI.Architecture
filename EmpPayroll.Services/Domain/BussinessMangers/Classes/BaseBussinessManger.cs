@@ -34,6 +34,7 @@ namespace App.Services.Domain.BussinessMangers.Classes
         public virtual TEntity Save(TEntity item)
         {
            var addedItem= Repository.Save(item);
+            
             UnitOfWork.Save();
             return addedItem;
         }

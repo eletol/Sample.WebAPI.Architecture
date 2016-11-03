@@ -1,4 +1,5 @@
 ﻿using System.Data.Entity;
+using System.Data.Entity.Infrastructure;
 using App.Services.Domain.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
 
@@ -23,6 +24,7 @@ namespace App.Services.Domain.DBContext
             return new DbContext();
         }
 
-      
+
+ 
     }
 }

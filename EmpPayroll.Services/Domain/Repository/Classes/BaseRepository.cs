@@ -8,22 +8,26 @@ using DAL.SDK.common;
 namespace App.Services.Domain.Repository
 {
     public class BaseRepository<TCollection, TItem> :IBaseRepository<TItem>
-        where TCollection : BusinessCollection<TItem, DbContext>, new()
+        where TCollection : BusinessCollection<TItem, DbContext> , new()
         where TItem : class,new()
 
+
     {
-       
+        public TCollection Collection { get; set; }
+        public BaseRepository(DbContext context)
+        {
+            Collection = new TCollection {ContextObject = context};
+
+        }
 
         public virtual TItem GetById(object id)
         {
-            var c = new TCollection();
-            return c.GetByID(id);
+            return Collection.GetByID(id);
         }
 
         public virtual TItem Save(TItem item)
         {
-            var c = new TCollection();
-            return c.Insert(item);
+            return Collection.Insert(item);
         }
 
         public virtual TItem Update(TItem entityToUpdate)
@@ -34,14 +38,12 @@ namespace App.Services.Domain.Repository
 
         public virtual TItem Delete(object id)
         {
-            var c = new TCollection();
-            return c.Delete(id); ;
+            return Collection.Delete(id); ;
         }
 
         public virtual IQueryable<TItem> Get(Expression<Func<TItem, bool>> filter = null, Func<IQueryable<TItem>, IOrderedQueryable<TItem>> orderBy = null, string includeProperties = "")
         {
-            var c = new TCollection();
-            return c.Get(filter, orderBy, includeProperties); 
+            return Collection.Get(filter, orderBy, includeProperties); 
         }
     }
 }

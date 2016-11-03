@@ -59,7 +59,7 @@ namespace App.Services.Domain.UnitOfWork
                 }
                 else
                 {
-                     repositoryInstance = Activator.CreateInstance(repositoryType);
+                     repositoryInstance = Activator.CreateInstance(repositoryType, _context);
                 }
                 _repositories.Add(type, repositoryInstance);
 

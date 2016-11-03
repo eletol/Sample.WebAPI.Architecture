@@ -16,11 +16,16 @@ namespace App.Services.Controllers
     public class EmployeesController : ApiController
     {
         private readonly IEmployeeBussinessManger _employeeBussinessManger;
-=        [Inject]
+       [Inject]
         public EmployeesController(IEmployeeBussinessManger employeeBussinessManger)
         {
             _employeeBussinessManger= employeeBussinessManger  ;
         }
+
+         public EmployeesController()
+         {
+             
+         }
         // GET: api/Departments
         public IEnumerable<Employee> Get()
         {

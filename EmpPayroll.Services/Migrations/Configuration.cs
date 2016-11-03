@@ -39,12 +39,7 @@ namespace App.Services.Migrations
                     Id = guid2
                     
                 });
-            context.Departments.AddOrUpdate(
-                    new Department() { DId = guid3, Name = "D1"}
-                    );
-            context.Employees.AddOrUpdate(
-                     new Employee() {EId = Guid.NewGuid().ToString(), DId = guid3, Salary = 1000}
-                     );
+       
            
         }
   
